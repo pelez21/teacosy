@@ -1,0 +1,34 @@
+/*Header Styling*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0 auto;
+  text-align: center;
+}
+#header {
+  display: flex;
+  height: 69px;
+  padding: 0 10px;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid seashell 1px;
+}
+#header img {
+  height: 50px;
+}
+#header a {
+  color: seashell;
+  padding-left: 20px;
+}
+/*#menu {
+  display: flex;
+  align-items: center;
+}*/
