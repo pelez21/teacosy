@@ -66,3 +66,29 @@ body {
 .grid-item h4 {
   margin-top: 10px;
 }
+#locations {
+  display: flex;
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+}
+#location-grid {
+  display: flex;
+  justify-content: center;
+}
+.local-grid {
+  background-color: black;
+  width: 300px;
+}
+.opaque {
+  opacity: 1;
+}
+.center {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+#locations h2 {
+  margin-bottom: 15px;
+}
