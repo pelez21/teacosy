@@ -53,15 +53,19 @@ body {
   display: flex;
   width: 1000px;
   flex-direction: column;
+  margin: 40px;
 }
 #img-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .img-size {
   width: 300px;
   height: 200px;
+}
+.grid-item {
+  margin: 15px;
 }
 .grid-item h4 {
   margin-top: 10px;
@@ -90,5 +94,15 @@ body {
   margin-left: 40px;
 }
 #locations h2 {
-  margin-bottom: 15px;
+  margin: 0 auto 15px auto;
+}
+#footer {
+  width: 100%
+}
+#footer div {
+  height: 200px;
+}
+.left-footer {
+  text-align: left;
+  margin-left: 20px;
 }
