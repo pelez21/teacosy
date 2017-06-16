@@ -1,4 +1,4 @@
-/*Header Styling*/
+                            /*Header Styling*/
 * {
   box-sizing: border-box;
 }
@@ -17,9 +17,11 @@ body {
   padding: 0 10px;
   position: fixed;
   width: 100%;
+  top: 0;
   justify-content: space-between;
   align-items: center;
   border-bottom: solid seashell 1px;
+  background-color: black;
 }
 #header img {
   height: 50px;
@@ -28,7 +30,22 @@ body {
   color: seashell;
   padding-left: 20px;
 }
-/*#menu {
+                            /*Main Section Styling*/
+#main-body {
   display: flex;
+  flex-direction: column;
   align-items: center;
-}*/
+  margin-top: 69px;
+}
+#mission-pic {
+  display: flex;
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+#mission {
+  background-color: black;
+  width: 100%;
+}
