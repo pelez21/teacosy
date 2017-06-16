@@ -51,7 +51,7 @@ body {
   align-items: center;
   margin-top: 69px;
 }
-#mission-pic {
+.mission-pic {
   background-image: url(../../resources/images/img-mission-background.jpg);
   align-items: center;
 }
